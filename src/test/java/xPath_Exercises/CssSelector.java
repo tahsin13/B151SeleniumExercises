@@ -8,7 +8,7 @@ import java.time.Duration;
 
 public class CssSelector {
     public static void main(String[] args) {
-        System.setProperty("CromeDriver", "src/main/resources/drivers/chromedriver");
+        System.setProperty("ChromeDriver", "src/main/resources/drivers/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
