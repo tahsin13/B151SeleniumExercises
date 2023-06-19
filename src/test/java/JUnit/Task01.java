@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 import java.util.List;
 
-public class JUnit_Ex1 {
+public class Task01 {
     //*** Aşağıdaki Task'i Junit framework'u ile yapınız
     //- Before methodu ile drive'i olusturup ayarlamalari yapiniz
     //- ebay sayfasına gidiniz
